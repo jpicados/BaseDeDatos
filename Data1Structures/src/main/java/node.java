@@ -34,19 +34,3 @@ public class node {
     }
     
 }
-public class Pilas {
-    
-    private node start;
-    private int lenght;
-    
-    public void Pilas(){
-        start=null;
-        lenght=0;
-    }
-    public boolean isEmpty(){
-        return start==null;
-    }
-    public int getLenght(){
-        return lenght;
-    }
-}
