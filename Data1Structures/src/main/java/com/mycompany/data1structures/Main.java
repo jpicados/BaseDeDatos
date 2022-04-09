@@ -18,8 +18,8 @@ public class Main {
        
         
         
-        System.out.println(Recursion.factorial(4));
-        System.out.println(Recursion.buscarElemento(arr, 0, 9, arr.length-1));
+        //System.out.println(Recursion.factorial(4));
+        //System.out.println(Recursion.buscarElemento(arr, 0, 9, arr.length-1));
         
         
         
@@ -38,13 +38,17 @@ public class Main {
         */
         
         queue cola1=new queue();
-        cola1.insertar(46);
-        cola1.insertar(12);
-        cola1.insertar(87);
-        cola1.insertar(125);
-        cola1.insertar(30);
+        cola1.insertar(1);
+        cola1.insertar(2);
+        cola1.insertar(3);
+        cola1.insertar(4);
+        cola1.insertar(5);
         cola1.extraer();
-        cola1.isEmpty();
+        cola1.extraer();
+        cola1.extraer();
+        cola1.extraer();
+        cola1.extraer();
+        //cola1.isEmpty();
         
         
     }

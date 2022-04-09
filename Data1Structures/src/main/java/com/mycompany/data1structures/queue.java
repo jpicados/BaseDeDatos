@@ -33,22 +33,21 @@ public class queue {
             tail = newNode;
             
         }
-        System.out.println("El valor anterior de tail es");
-        System.out.println(tail.getValue());
+
         tail.setNext(newNode);
         tail = newNode;
         lenght++;
         System.out.println("El valor actual de tail es");
         System.out.println(tail.getValue());
-    }
-    public void extraer(){
-        System.out.println("El valor anterior de head es");
-        System.out.println(head.getValue());
-        head = head.getNext();
-        
         System.out.println("El valor actual de head es");
         System.out.println(head.getValue());
-        lenght--;
+    }
+    public void extraer(){
+        System.out.println("El valor de head es: "+head.getValue());
+        head = head.getNext();
+        
+        System.out.println("El valor tail es: "+tail.getValue());
+        //tail.getNext();
     }
     public boolean isEmpty(){
         boolean cola = false;
